@@ -134,3 +134,66 @@ a {
 }
 
 /*toast*/
+/* CSS fornecido pelo usuário */
+
+/* Adicionando consultas de mídia para telas maiores */
+@media (min-width: 768px) {
+  body {
+    font-size: 18pt; /* Aumentar o tamanho da fonte para telas maiores */
+  }
+ header img{
+   max-width: 300px;
+   max-height: 300px;
+ }
+  .container {
+    margin: 20px auto; /* Centralizar o container e adicionar margem */
+    max-width: 720px; /* Definir uma largura máxima para containers maiores */
+  }
+
+  .cabecalho img {
+    width: 250px; /* Aumentar o tamanho da imagem para telas maiores */
+    height: 250px;
+  }
+
+  p, span, h1, h2, h4, button {
+    font-size: 16pt; /* Aumentar o tamanho da fonte para telas maiores */
+  }
+
+  .imagem img {
+    max-width: 300px;
+    max-height: 300px; /* Aumentar a altura máxima da imagem para telas maiores */
+  }
+
+  .fakefooter img {
+    width: 70px; /* Aumentar o tamanho da imagem do rodapé para telas maiores */
+    height: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 20pt; /* Aumentar ainda mais o tamanho da fonte para telas ainda maiores */
+  }
+
+  .container {
+    max-width: 960px; /* Definir uma largura máxima para containers ainda maiores */
+  }
+
+  .cabecalho img {
+    width: 300px; /* Aumentar ainda mais o tamanho da imagem para telas ainda maiores */
+    height: 300px;
+  }
+
+  p, span, h1, h2, h4, button {
+    font-size: 18pt; /* Aumentar ainda mais o tamanho da fonte para telas ainda maiores */
+  }
+
+  .imagem img {
+    max-height: 300px; /* Aumentar ainda mais a altura máxima da imagem para telas ainda maiores */
+  }
+
+  .fakefooter img {
+    width: 90px; /* Aumentar ainda mais o tamanho da imagem do rodapé para telas ainda maiores */
+    height: 90px;
+  }
+}

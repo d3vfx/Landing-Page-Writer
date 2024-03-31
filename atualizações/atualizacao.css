@@ -38,3 +38,51 @@ img{
   border-radius: 10px;
   box-shadow: 3px 3px 5px rgba(15, 0, 89, 0.4);
 }
+/* CSS existente */
+
+/* Adicionando consultas de mídia para telas maiores */
+@media (min-width: 768px) {
+  body {
+    font-size: 16pt; /* Aumentar o tamanho da fonte para telas maiores */
+  }
+header {
+  text-align: center;
+}
+  .container {
+    padding: 20px;
+    height: auto; /* Altura automática para se adaptar ao conteúdo */
+  }
+
+  img {
+    width: 80%; /* Reduzir a largura da imagem para evitar que fique muito grande */
+    height: auto; /* Manter a altura proporcional */
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 17pt; /* Aumentar ainda mais o tamanho da fonte para telas ainda maiores */
+  }
+
+  .container {
+    padding: 30px;
+  }
+
+  img {
+    width: 60%; /* Reduzir ainda mais a largura da imagem para telas ainda maiores */
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 18pt; /* Aumentar ainda mais o tamanho da fonte para telas muito grandes */
+  }
+
+  .container {
+    padding: 40px;
+  }
+
+  img {
+    width: 50%; /* Reduzir significativamente a largura da imagem para telas muito grandes */
+  }
+}
